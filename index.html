@@ -1,0 +1,371 @@
+<!--<!DOCTYPE html>-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Premium bicycles for adventure enthusiasts. Discover our range of high-quality bicycles.">
+    <title>Adventure Bicycles - Premium Bicycle Collection</title>
+
+    <!-- Bootstrap 5 CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navigationBar">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <p class="title">AdventureBicycles</p>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#welcome">Welcome</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#cta">Call-To-Action</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Welcome Section -->
+    <section id="welcome" class="welcome-section">
+        <div class="container h-100 zoom-in">
+            <div class="row h-100 align-items-center">
+                <div class="col-md-6">
+                    <h1 class="display-4">"Welcome to Adventure Bicycles"</h1>
+                    <p class="lead">Begin your adventure now using our high-end performance bicycles made to excel both on
+                        rough trails and urban environments. Start your journey today!</p>
+                    <a href="#products" class="btn btn-primary btn-lg">Explore Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-5 ">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center text-md-start">
+                    <h2>About Us – Adventure Bicycles </h2>
+                    <h4>Who We Are</h4>
+                    <p>At <strong>AdventureBicycles</strong>, We are passionate about pushing the boundaries of outdoor
+                        cycling. Whether you're conquering rugged trails, navigating mountain paths, or embarking on
+                        long-distance journeys, our bikes are meticulously engineered to deliver an exhilarating and
+                        reliable ride.</p>
+                    <h4>Our Mission</h4>
+                    <p>Our mission is to empower adventurers and outdoor enthusiasts with high-performance bicycles that
+                        seamlessly combine <strong>durability, innovation, and comfort</strong>. Our mission is to
+                        inspire your spirit of exploration-one ride at a time.</p>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center">
+                    <img src="img/about-bike.jpg" alt="About our bikes" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6 text-start">
+                    <h4>Why Choose AdventureBicycles?</h4>
+                    <ul class="features-list">
+                        <li><strong>Precision Engineering</strong> – Crafted with high-quality materials for exceptional
+                            strength and durability.</li>
+                        <li><strong>Advanced Suspension System</strong> – Delivers a smooth and stable ride across rough
+                            terrains</li>
+                        <li><strong>Lightweight & Sturdy Frame</strong> – Designed for agility without compromising
+                            durability</li>
+                        <li><strong>High-Traction Tires</strong> – Ensures superior grip on dirt trails, rocky paths,
+                            and paved roads</li>
+                        <li><strong>Efficient Gear System</strong> – Enables seamless shifting for effortless uphill and
+                            downhill rides</li>
+                    </ul>
+                    <h4>Our Commitment to Quality</h4>
+                    <p>Every <strong>AdventureBicycle</strong> under gorigorous testing to meet international quality
+                        and performance standards. We collaborate with professional riders and outdoor enthusiasts to
+                        continuously refine our designs, ensuring an exceptional and reliable riding experience.</p>
+                    <h4>Join the Adventure!</h4>
+                    <p>Experience the thrill of the great outdoors with a bicycle designed for adventure. Whether you're
+                        a beginner or a seasoned rider, our bicycles are built to enhance your journey with<strong>
+                            performance, durability, and comfort</strong>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--product showcase -->
+    <section id="products" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Products</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card product-card">
+                        <img src="img/hercules-redeem.png" class="card-img-top" alt="Mountain Bike">
+                        <div class="card-body">
+                            <h5 class="card-title">Mountain Explorer</h5>
+                            <p class="card-text">Perfect for rough terrain and mountain trails.</p>
+                            <button class="btn btn-primary" onclick="viewProduct()">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card product-card">
+                        <img src="img/Top Fuel 5.png" class="card-img-top" alt="Mountain Bike">
+                        <div class="card-body">
+                            <h5 class="card-title">Top Fuel 5</h5>
+                            <p class="card-text">Delivers hardtail simplicity and fully capability for a heavy-hitting
+                                trail bike that amps up every ride.</p>
+                            <button class="btn btn-primary" onclick="viewProduct()">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card product-card">
+                        <img src="img/YPB01I5K.jpg" class="card-img-top" alt="Mountain Bike">
+                        <div class="card-body">
+                            <h5 class="card-title">Spark 26</h5>
+                            <p class="card-text">It is is for riders who seek out sick lines over Strava segments</p>
+                            <button class="btn btn-primary" onclick="viewProduct()">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card product-card">
+                        <img src="img/Rail 9.7.png" class="card-img-top" alt="Mountain Bike">
+                        <div class="card-body">
+                            <h5 class="card-title">Rail 9.7</h5>
+                            <p class="card-text">Performance E-bike built for riders who want to go far and go fast</p>
+                            <button class="btn btn-primary" onclick="viewProduct()">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card product-card">
+                        <img src="img/slash_9.9.png" class="card-img-top" alt="Herculus Redeem Mountain Bike">
+                        <div class="card-body">
+                            <h5 class="card-title">FX +2</h5>
+                            <p class="card-text">Light weight city electric bike thet's designed make everyday
+                                excursions faster and more fun</p>
+                            <button class="btn btn-primary" onclick="viewProduct()">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card product-card">
+                        <img src="img/Fuel EXe 8.png" class="card-img-top" alt="Herculus Redeem Mountain Bike">
+                        <div class="card-body">
+                            <h5 class="card-title">Fuel EXe 8</h5>
+                            <p class="card-text">Powerfly is a versatile and powerful e-MTB that helps you explore more
+                                of your off-road world</p>
+                            <button class="btn btn-primary" onclick="viewProduct()">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card product-card">
+                        <img src="img/Rail 7.png" class="card-img-top" alt="Herculus Redeem Mountain Bike">
+                        <div class="card-body">
+                            <h5 class="card-title">Rail 7</h5>
+                            <p class="card-text">A hard-charging electric trail bike with plenty of travel to get you
+                                through the rough stuff.</p>
+                            <button class="btn btn-primary" onclick="viewProduct()">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card product-card">
+                        <img src="img/Session 9.png" class="card-img-top" alt="Herculus Redeem Mountain Bike">
+                        <div class="card-body">
+                            <h5 class="card-title">Session</h5>
+                            <p class="card-text">This World Cup champ is built to clock the fastest times down the
+                                biggest mountains.</p>
+                            <button class="btn btn-primary" onclick="viewProduct()">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card product-card">
+                        <img src="img/Powerfly FS 9.png" class="card-img-top" alt="Mountain Bike">
+                        <div class="card-body">
+                            <h5 class="card-title">Powerfly FS 9</h5>
+                            <p class="card-text">Hardtail for riders who are ready to cut loose and have a blast ripping
+                                up the trail</p>
+                            <button class="btn btn-primary" onclick="viewProduct()">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Customer Testimonials</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="testimonial-card fade-in slide-in-right">
+                        <img src="img/Liam D.jpg" class="rounded-circle" alt="Customer">
+                        <p class="testimonial-text"><strong>"Best Investment for Any Outdoor!"</strong><br>
+                            "I’ve owned many bikes before, but none compare to this one. It’s well-designed, durable,
+                            and performs exceptionally well in all weather conditions. Worth every penny!"</p>
+                        <h5>Liam D</h5>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="testimonial-card fade-in slide-in-right">
+                        <img src="img/Sophia G.jpg" class="rounded-circle" alt="Customer">
+                        <p class="testimonial-text"><strong>"An Unforgettable Riding Experience!"</strong><br>
+                            "I never knew cycling could be this fun! The bike's agility, traction, and durability make
+                            it perfect for both city roads and wild trails. Highly recommended!"</p>
+                        <h5>Sophia G</h5>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="testimonial-card fade-in slide-in-right">
+                        <img src="img/Mark T.jpg" class="rounded-circle" alt="Customer">
+                        <p class="testimonial-text"><strong>"A Game-Changer for My Adventures!"</strong><br>
+                            "This bike has completely transformed my outdoor experiences. The sturdy frame, smooth gear
+                            system, and excellent traction make every ride effortless and enjoyable!"</p>
+                        <h5>Mark T</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Call to Action Section -->
+    <section id="cta" class="position-relative py-5">
+        <div class="cta-overlay"></div>
+        <div class="container position-relative">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0 fade-in slide-in-left">
+                    <img src="img/call-to-action.png" alt="Mountain Bike" class="img-fluid rounded-3 shadow-lg">
+                </div>
+                <div class="col-lg-6 text-center text-lg-start fade-in slide-in-right">
+                    <h2 class="display-4 text-white mb-3">Unleash Your Journey</h2>
+                    <p class="lead text-white-50 mb-4"><strong>Limited Time Offer!</strong><br>
+                        Get 20% Off your first purchase of our premium bicycles. Don’t miss out on this exclusive deal –
+                        shop now and enjoy the ride!</p>
+                    <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center justify-content-lg-start">
+                        <a href="#products" class="btn btn-primary btn-lg px-4 py-3">
+                            Order Now
+                            <i class="bi bi-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-6 float-in">
+                    <form id="contactForm" onsubmit="return handleSubmit(event)">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="message" rows="5" placeholder="Your Message"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-md-6 float-in">
+                    <div class="contact-info">
+                        <h3>Get in Touch</h3>
+                        <p><i class="bi bi-geo-alt"></i> 69 Union Place, Colombo</p>
+                        <p><i class="bi bi-envelope"></i> adventurebicycles@gmail.com</p>
+                        <p><i class="bi bi-phone"></i> (011) 3467349</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <!-- About Section -->
+                <div class="col-md-4">
+                    <h5>About Us</h5>
+                    <p>AdventureBicycle is dedicated to providing high-quality bicycles for adventure enthusiasts.
+                        Explore the world with our reliable and durable bicycles.</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#about" class="text-white">About</a></li>
+                        <li><a href="#products" class="text-white">Products</a></li>
+                        <li><a href="#testimonials" class="text-white">Testimonials</a></li>
+                        <li><a href="#contact" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter Subscription -->
+                <div class="col-md-4">
+                    <h5>Subscribe to Our Newsletter</h5>
+                    <form id="newsletterForm">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Enter your email" required>
+                            <button type="submit" class="btn btn-primary">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <hr class="my-4 border-light">
+
+            <!-- Social Media & Copyright -->
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <p>&copy; 2025 AdventureBicycles. All rights reserved.</p>
+                </div>
+                <div class="col-md-6">
+                    <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
